@@ -1,0 +1,277 @@
+body
+{
+	font-family:Arial, Verdana,"Trebuchet MS", "Times New Roman";
+	font-size:14px;
+}
+
+.corps
+{
+	width:930px;
+	margin:0 auto;
+}
+
+#entete, #menu, #contenu
+{
+	margin:0 0 5px 0;	
+}
+
+#entete{width:930px; height:219px; background-image:url('../image/banner.jpeg');}
+
+#menu
+{
+	width:930px;
+	background-color: #669966;
+	color:#fff;
+	font-weight:bold;
+	display:inline-block;
+	border-radius:10px 10px 0 0;
+	margin:0 0 5px 0;
+}
+
+#menu ul
+{
+	list-style:none;
+	margin:0 auto;
+	display:inline;
+}
+
+#menu li{
+	display:inline-block;
+	float:left;
+	border-left:2px solid #669966;
+	border-right:2px solid #9999cc;
+	padding:15px 17px;
+	font-size:24px;
+	text-align:center;
+	font-family:'century gothic', arial, verdana;
+	width:140px;
+}
+
+#menu li:hover, #menu ul .menu_active{
+	background:#9999cc;
+}
+
+#menu ul .dernier_menu{
+	border-right:none;
+}
+
+#menu ul a{
+	color:#fff;
+	text-decoration:none;
+}
+
+#menu ul a:hover{
+	color:#fff;
+	}
+	
+#slide{
+	background:#c4c4c4;
+	height:400px;
+	margin:2px 0 2px 0;
+	display: block;
+	position:relative;
+}
+
+
+#slide img{
+	display:none; 
+	width: 930px; 
+	height: 400px;
+}
+
+
+#page{
+	display:inline-block;
+	width:930px;
+	margin-top:5px;	
+}
+	
+	
+	
+.aside{
+	display:inline-block;
+	position:relative;
+	width:300px;
+	float:left;
+	background:#669966;
+	margin:5px 5px 5px 0;
+}
+
+.section{
+	display:inline-block;
+	width:620px;
+	float:right;
+	background:#669966;
+	margin:5px 0 5px 0;
+}
+
+.title{
+	background:#9999cc;
+	border-radius:5px 5px 0 0;
+	text-align:center;
+	font-size:24px;
+	font-family:'century gothic';
+	color:#fff;
+}
+
+.description{
+	background:#669966;
+	color:white;
+	padding:5px;
+	font-family:'Trebuchet MS', arial, verdana;
+	font-size:16px;
+}
+
+
+.article{
+	display:inline-block;
+	width:305px;
+	float:left;
+	background:#669966;
+	margin:5px 5px 5px 0;
+}
+
+.titre{
+	background:#9999cc;
+	border-radius:5px 5px 0 0;
+	text-align:center;
+	font-size:24px;
+	font-family:'century gothic';
+	color:#fff;
+}
+
+.describe{
+	background:#669966;
+	color:white;
+	padding:5px;
+	font-family:'trebuchet Ms', arial, verdana;
+	font-size:16px;
+	height:160px;
+	text-align:justify;
+}
+
+
+	
+	
+#contenu form
+{
+	width:930px;
+	background:#9999cc;
+	
+}
+.exe
+{
+font-size:22px;
+font-family:"century gothic";
+text-align:center;
+padding:5px;
+margin:-13px 0 0 0;
+}
+
+form table{
+margin:0 0 0 25px;
+font-size:16px;
+font-family:"century gothic";
+font-weight:bold;
+}
+
+.social{
+		display:inline-block;
+		float:left;
+		position:relative;
+		margin-right:50px;
+}
+
+.home, .phone, .mail, .fax {
+	background-position: 0 1px;
+	padding-left: 24px;
+	margin-left:-45px;
+	
+}
+.phone {
+	background-position: 0 -26px;
+}
+.fax {
+	background-position: 0 -54px;
+}
+.mail {
+	background-position: 0 -82px;
+}
+
+.social ul li{list-style:none;}
+
+
+.textform {
+	display:inline-block;
+	width:350px;
+	height:20px;
+	padding:5px 5px 5px 5px;
+	border:2px solid #669966;
+}
+
+.text{
+	height:10px;
+	width:20px;
+}
+
+.message{
+	margin-top:-5px;
+	height:250px;
+	width:530px;
+	border:2px solid #669966;
+	padding: 10px 10px;
+}
+
+.boutonenvoyer{
+	
+	width:90px;
+	height:40px;
+	float:right;
+	background:#669966;
+	color:#fff;
+	border:1px solid #669;
+	border-radius:10px;
+	font-size: 18px;
+	font-family:"century gothic";
+	box-shadow:0px 15px 10px #000;
+	margin: 0 0 15px 0;
+}
+
+.boutonenvoyer:hover{
+	background:#9999cc;
+}
+
+.erreur{
+	padding:10px;
+	background:#996666;
+	font-size:14px;
+	color:#fff;
+	font-family:"century gothic", arial, verdana;
+	font-size:15px;
+}
+	
+
+	
+	/*  Foot */
+	
+#pied_de_page
+{
+	background:#669966;
+	border-top:5px solid #9999cc;
+	color:#fff;
+	font-family:'trebuchet Ms', arial, verdana;
+	font-size:18px;
+	text-align:center;
+	width:930px;
+	
+}
+ .pied{padding:5px 0 5px 0; }
+
+.icon
+{
+	margin-top:5px;
+	padding:0 2px 0 0;
+	border-radius:15px;
+	height:24px;
+}
+
